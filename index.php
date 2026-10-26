@@ -26,28 +26,9 @@
     <div class="layout">
         <!-- Menú Lateral -->
         <aside class="sidebar" id="sidebar">
-            <!--<ul>
-                <li class="lang-es"><a href="machine_status/">Active Nodes</a></li>
-                <li class="lang-es"><a href="proyectos.php">Portafolio</a></li>
-                <li class="lang-es"><a href="mvp1">Syntax Sanctuary</a></li>
-            </ul>-->
-            <?php require_once "../../../src/mycode.php"; syntax (); ?>
-
-            <?= decodificar ( lista (enlace([
-                'Inicia Aqui' => 'jobs.html',
-                'Videos' => '../../player/' ,
-                'Area Priv' => '../../InicioDeSesion/area_privada.php' ,
-                'Chat' => '../../chat' ,
-                'Aryi' => '../../agente' ,
-                'GitHub' => 'https://github.com/radaptow' ,
-                'Juego' => '../../game' ,
-                'Vision' => '../../VISION/VISION.php' ,
-                'Texto' => '../../TEXT/TEXT.php' ,
-                'Blog' => '../../blog' ,
-                'Status' => '../../machine_status' ,
-                'Plantilla' => '../../machine_status/Template' ,
-                'Archivos' => '../../../files.php'
-            ])) ); ?>
+            <ul>
+                <li class="lang-es"><a href="#">Home</a></li>
+            </ul>
         </aside>
 
         <!-- Contenido -->
